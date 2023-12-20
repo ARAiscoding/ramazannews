@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ramazannews/static/css/main.1eaec58a.css",
+    "main.js": "/ramazannews/static/js/main.8e184869.js",
+    "index.html": "/ramazannews/index.html",
+    "static/media/logo.svg": "/ramazannews/static/media/logo.bd76ede26639906050e4f99eb193f6cd.svg",
+    "main.1eaec58a.css.map": "/ramazannews/static/css/main.1eaec58a.css.map",
+    "main.8e184869.js.map": "/ramazannews/static/js/main.8e184869.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eaec58a.css",
+    "static/js/main.8e184869.js"
+  ]
+}
