@@ -1,0 +1,5 @@
+const employeesData = [
+
+];
+
+export { employeesData };

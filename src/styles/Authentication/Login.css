@@ -1,0 +1,46 @@
+/* LOGIN/LOGOUT BUTTON */
+
+.login-logout.btn.btn-primary {
+  background-color: #df4759;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.login-logout.btn.btn-primary:hover {
+  background-color: #af3745;
+}
+
+/* LOGIN MODAL */
+
+.login.modal-footer {
+  justify-content: center;
+}
+
+div.login.container {
+  text-align: center;
+}
+
+.login-logo {
+  margin-bottom: 1.5%;
+}
+
+/* USERLIST */
+
+/* USERCARD */
+
+div.user-position.col {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5%;
+}
+
+div.user-position.col:first-child {
+  margin-top: 2.5%;
+}

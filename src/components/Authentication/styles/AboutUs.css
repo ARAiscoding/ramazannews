@@ -1,0 +1,18 @@
+/* AboutUs.css */
+.about-us {
+  padding: 40px;
+}
+
+.about-content {
+  margin-bottom: 30px;
+}
+
+.thank-you {
+  font-style: italic;
+  color: #555;
+}
+
+/* Optionally, add styles for the sidebar */
+.sidebar {
+  text-align: center;
+}

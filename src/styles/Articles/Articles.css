@@ -1,0 +1,143 @@
+/* ARTICLES SEARCH FORM  */
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+.article-search {
+  text-align: center;
+}
+.select {
+  margin-top: 10%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.article-search-select,
+.article-search-btn,
+.modal-btn {
+  display: inline-block;
+}
+
+.article-search label,
+.article-search .select,
+.article-search-btn {
+  display: inline-block;
+  margin-right: 10px;
+}
+.article-search label {
+  font-weight: bold;
+}
+
+.article-search .modal-btn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.loading-message {
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+/* ARTICLES */
+@media (min-width: 758px) {
+  .row {
+    justify-content: space-around;
+    padding: 1%;
+  }
+  .col {
+    padding: 1%;
+  }
+}
+
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* ARTICLE CARD */
+
+@media (min-width: 758px) {
+  .articles-card-container {
+    width: 25%;
+  }
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2.5%;
+  padding: 2.5%;
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-subtitle {
+  text-align: center;
+}
+
+.topic-badge {
+  left: 5px;
+  position: absolute;
+  top: 5px;
+}
+
+.card-footer {
+  display: inline-block;
+}
+
+.complete-card {
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.complete-card:hover {
+  box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* ARTICLE */
+
+@media (min-width: 758px) {
+  div.ind-card.card-title.h5 {
+    font-size: xx-large;
+  }
+}
+
+.votes-container {
+  text-align: right;
+  margin-right: 5%;
+  margin-bottom: 2.5%;
+}
+
+.card-title {
+  margin-top: 1%;
+}
